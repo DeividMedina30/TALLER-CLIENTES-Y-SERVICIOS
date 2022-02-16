@@ -127,6 +127,14 @@ anterior.
 
 Se espera poder terminar de implementar los retos además de realizar el despliegue en heroku, de
 ser posibles realizar pruebas para tanto ejercicios como retos planteados en el laboratorio.
+
+### Documentación
+
+Para generar la documentación se debe ejecutar:
+    
+`$ mvn javadoc:javadoc`
+
+Esta quedará en la carpeta target/site/apidocs
  
 ### AUTOR.
 
