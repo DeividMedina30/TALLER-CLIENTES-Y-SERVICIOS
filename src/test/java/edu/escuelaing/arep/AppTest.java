@@ -10,4 +10,11 @@ import junit.framework.TestCase;
  */
 public class AppTest extends TestCase{
 
+    /**
+     * Hacer True
+     */
+    public void test_celsius_A_Fahrenheit() {
+        assertEquals(true,true);
+    }
+
 }

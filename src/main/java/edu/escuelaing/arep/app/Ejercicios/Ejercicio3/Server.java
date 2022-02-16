@@ -7,10 +7,21 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-
 import static java.lang.Integer.parseInt;
 
+/**
+ * Funciones Java
+ * Curso: Arquitectura Empresarial
+ * @version 1.1
+ * @author Deivid Medina
+ */
 public class Server {
+
+    /**
+     * Clase main que ejecuta el ejercicio 3, la función main es la del servidor.
+     * @param args - Argumento por defecto que contiene el main.
+     * @throws Exception - Excepción para controlar posibles errores por URL.
+     */
     public static void main(String[] args) throws Exception {
         ServerSocket servidor;
         Socket cliente;

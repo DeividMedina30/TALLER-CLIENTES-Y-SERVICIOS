@@ -2,7 +2,19 @@ package edu.escuelaing.arep.app.Ejercicios.Ejercicio1;
 import java.io.*;
 import java.net.*;
 
+/**
+ * Funciones Java
+ * Curso: Arquitectura Empresarial
+ * @version 1.1
+ * @author Deivid Medina
+ */
 public class Ejericio1_Arep {
+
+    /**
+     * Clase main que ejecuta el ejercicio 1.
+     * @param args - Argumento por defecto que contiene el main.
+     * @throws Exception - Excepción para controlar posibles errores por URL.
+     */
     public static void main(String[] args) throws Exception {
         URL newUrl = new URL("https://www.geeksforgeeks.org/url-getprotocol-method-in-java-with-examples/?title=protocol#RefCreada");
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(newUrl.openStream()))) {
