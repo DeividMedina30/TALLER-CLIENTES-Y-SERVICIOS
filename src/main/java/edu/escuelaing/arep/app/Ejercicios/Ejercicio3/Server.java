@@ -8,6 +8,8 @@ import java.net.Socket;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+import static java.lang.Integer.parseInt;
+
 public class Server {
     public static void main(String[] args) throws Exception {
         ServerSocket servidor;
@@ -23,8 +25,11 @@ public class Server {
             while (!mensajeCliente.equalsIgnoreCase("")){
                 entrada = new BufferedReader(new InputStreamReader(cliente.getInputStream())); //Leyendo dato del cliente que nos manda
                 mensajeCliente = entrada.readLine();
-                numero = Integer.parseInt(mensajeCliente);
-                System.out.println("El cuadrado del número: " + numero + ", es: " + Math.pow(numero,2));
+                if (!mensajeCliente.equalsIgnoreCase("")){
+                    numero = parseInt(mensajeCliente);
+                    System.out.println("El cuadrado del número: " + numero + ", es: " + Math.pow(numero,2));
+                }
+
             }
             entrada.close();
             cliente.close();
