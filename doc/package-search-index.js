@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"edu.escuelaing.arep.app.Ejercicios.Ejercicio1"},{"l":"edu.escuelaing.arep.app.Ejercicios.Ejercicio2"},{"l":"edu.escuelaing.arep.app.Ejercicios.Ejercicio3"}];updateSearchResults();
