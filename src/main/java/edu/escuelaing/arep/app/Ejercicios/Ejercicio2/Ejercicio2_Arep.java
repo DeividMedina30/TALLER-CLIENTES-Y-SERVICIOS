@@ -1,4 +1,4 @@
-package edu.escuelaing.arep.app.Ejercicios;
+package edu.escuelaing.arep.app.Ejercicios.Ejercicio2;
 
 import java.io.*;
 import java.net.MalformedURLException;
@@ -21,7 +21,7 @@ public class Ejercicio2_Arep {
     }
 
     private static void extraerDatosURL(URL urlExtraer) throws Exception {
-        File archvivo = new File("src/main/java/edu/escuelaing/arep/app/Ejercicios/resultado.html");
+        File archvivo = new File("src/main/java/edu/escuelaing/arep/app/Ejercicios/Ejercicio2/resultado.html");
         try {
             URLConnection urlConnection = urlExtraer.openConnection(); //objeto que utilizamos para examinar las propiedades del recurso remoto referenciado o para obtener su contenido
             InputStream is = urlConnection.getInputStream(); //declara los métodos para leer datos desde una fuente concreta

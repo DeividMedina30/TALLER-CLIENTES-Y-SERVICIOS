@@ -1,4 +1,4 @@
-package edu.escuelaing.arep.app.Ejercicios;
+package edu.escuelaing.arep.app.Ejercicios.Ejercicio1;
 import java.io.*;
 import java.net.*;
 
