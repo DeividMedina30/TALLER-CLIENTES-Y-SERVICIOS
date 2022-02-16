@@ -30,6 +30,7 @@ public class Ejercicio2_Arep {
             String linea = br.readLine();
             while (linea != null){
                 bw.write(linea);
+                bw.newLine();
                 linea = br.readLine();
             }
             br.close();
